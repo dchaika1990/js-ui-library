@@ -1,5 +1,5 @@
 import './lib/lib'
 
 $('button').on('click', function () {
-    $(this).toggleClass('active')
+    $(this).toggleClass('active').toggleAttr('data-test', 'true')
 });
