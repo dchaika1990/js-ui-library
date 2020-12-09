@@ -1,3 +1,5 @@
 import './lib/lib'
 
-$('.active').toggleClass('active');
+$('button').on('click', function () {
+    $(this).toggleClass('active')
+});
