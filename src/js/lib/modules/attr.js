@@ -4,7 +4,11 @@ $.prototype.attr = function(name, value = '') {
 	if (!name) return this;
 	for (let i = 0; i < this.length; i++) {
 		if (this[i].setAttribute) {
-			this[i].setAttribute(name, value)
+			if (!value) {
+				return this[i].getAttribute(name)
+			} else {
+				this[i].setAttribute(name, value)
+			}
 		}
 	}
 	return this;

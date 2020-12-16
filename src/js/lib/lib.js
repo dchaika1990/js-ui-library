@@ -5,5 +5,6 @@ import './modules/handlers';
 import './modules/attr';
 import './modules/actions';
 import './modules/effects';
+import './components/dropdowm';
 
 export default $;
