@@ -11,6 +11,10 @@ $.prototype.html = function(content) {
 	return this;
 };
 
+$.prototype.elem = function() {
+	return Object.values(this).slice(0, -1);
+}
+
 $.prototype.eq = function(i) {
 	const swap = this[i];
 	Object.keys(this).forEach((key) => delete this[key]);

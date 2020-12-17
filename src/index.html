@@ -13,17 +13,89 @@
     <button class="btn btn-danger m20" data-count="second">Fade out second text</button>
     <button class="btn btn-dark m20">Fade out all text</button>
 
-<!--  Dropdown menu start  -->
-<!--    <div class="dropdown">-->
-<!--        <button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton">Dropdown button</button>-->
-<!--        <div class="dropdown-menu" data-toggle-id="dropdownMenuButton">-->
-<!--            <a href="#" class="dropdown-item">Action #1</a>-->
-<!--            <a href="#" class="dropdown-item">Action #2</a>-->
-<!--            <a href="#" class="dropdown-item">Action #3</a>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--  Dropdown menu end  -->
+    <!--  Dropdown menu start  -->
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" id="dropdownMenuButtonTest">Dropdown button</button>
+        <div class="dropdown-menu" data-toggle-id="dropdownMenuButtonTest">
+            <a href="#" class="dropdown-item">Action #1</a>
+            <a href="#" class="dropdown-item">Action #2</a>
+            <a href="#" class="dropdown-item">Action #3</a>
+        </div>
+    </div>
+    <!--  Dropdown menu end  -->
     <div class="wrap"></div>
+
+    <div class="goods d-flex f-space-around">
+        <div class="card">
+            <img class="card-img" src="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
+                 alt="photo">
+            <div class="card-body">
+                <div class="card-title">Card title</div>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, quisquam.</p>
+                <a href="#"
+                   class="btn btn-primary"
+                   data-toggle="modal"
+                   data-target="#exampleModal"
+                >Link to</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card-img" src="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
+                 alt="photo">
+            <div class="card-body">
+                <div class="card-title">Card title #2</div>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, quisquam.</p>
+                <a href="#"
+                   class="btn btn-primary"
+                   data-toggle="modal"
+                   data-target="#exampleModal2"
+                >Link to</a>
+            </div>
+        </div>
+    </div>
+
+    <!--  Modal Start -->
+    <div class="modal" id="exampleModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-close>
+                    <span>&times;</span>
+                </button>
+                <div class="modal-header">
+                    <div class="modal-title">Modal Title</div>
+                </div>
+                <div class="modal-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis cupiditate
+                    ducimus labore, officia quisquam quo ratione reiciendis tempore. Cupiditate, dicta.
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-close>Close</button>
+                    <button class="btn btn-success">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="exampleModal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-close>
+                    <span>&times;</span>
+                </button>
+                <div class="modal-header">
+                    <div class="modal-title">Modal Title2</div>
+                </div>
+                <div class="modal-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, ad
+                    aperiam architecto at dolores eaque harum id labore mollitia quae quidem quisquam repellendus
+                    reprehenderit sequi sint suscipit tenetur ullam voluptatem.
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-close>Close</button>
+                    <button class="btn btn-success">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  Modal End -->
 </div>
 <script src='script.js'></script>
 </body>
