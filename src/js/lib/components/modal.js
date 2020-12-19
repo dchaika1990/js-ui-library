@@ -49,7 +49,7 @@ $.prototype.createModal = function ({text, btns} = {}) {
 				buttons.push(btn);
 			}
 
-		modal.innerHTML = `
+			modal.innerHTML = `
              <div class="modal-dialog">
                 <div class="modal-content">
                     <button class="close" data-close>

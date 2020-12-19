@@ -8,5 +8,6 @@ import './modules/each';
 import './modules/effects';
 import './components/dropdowm';
 import './components/modal';
+import './components/tab';
 
 export default $;
